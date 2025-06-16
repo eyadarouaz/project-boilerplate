@@ -40,7 +40,7 @@ This project is organized into two main parts: the backend and the frontend.
    You can initialize the project environment by running:
 
    ```bash
-   $ bash bin/setup.sh
+   bash bin/setup.sh
    ```
 
    This will install Node v22.16.0, nestjs/cli and dependencies for both the frontend (React) and backend (NestJS).
@@ -50,15 +50,15 @@ This project is organized into two main parts: the backend and the frontend.
    For starting the NestJS backend run:
    
    ```bash
-   $ cd backend
-   $ npm run start:dev
+   cd backend
+   npm run start:dev
    ```
 
    For starting the React frontend run:
    
    ```bash
-   $ cd frontend
-   $ npm start
+   cd frontend
+   npm start
    ```
 
 ### ✅ Linting and Fromatting
@@ -70,7 +70,7 @@ This project is organized into two main parts: the backend and the frontend.
 You can ask eslint to fix issues by running:
 
 ```bash
-$ npm run lint
+npm run lint
 ```
 
 ### 🧪 Testing
@@ -78,7 +78,7 @@ $ npm run lint
 Use the following command to run unit tests:
 
 ```bash
-$ npm run test
+npm run test
 ```
 
 Use the following to run unit tests in watch mode while developing:
