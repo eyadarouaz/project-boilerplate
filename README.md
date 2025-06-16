@@ -4,6 +4,7 @@
 
 This repository contains the starter code for a Node project.
 
+<br />
 
 ### 🗂️ Project layout
 
@@ -27,7 +28,7 @@ This project is organized into two main parts: the backend and the frontend.
 ├── README.md          <- project documentation
 └── package.json       <- root package file if using workspaces or tooling
 ```
-
+<br />
 
 ### 📦 Getting started
 
@@ -62,7 +63,7 @@ This project is organized into two main parts: the backend and the frontend.
    cd frontend
    npm start
    ```
-
+<br />
 
 ### ✅ Linting and Fromatting
 
@@ -75,7 +76,7 @@ You can ask eslint to fix issues by running:
 ```bash
 npm run lint
 ```
-
+<br />
 
 ### 🧪 Testing
 
