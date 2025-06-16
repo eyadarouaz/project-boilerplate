@@ -35,7 +35,7 @@ This project is organized into two main parts: the backend and the frontend.
    - curl
    - Git
 
-3. 🛠️  **Development Environment**
+2. 🛠️  **Development Environment**
    
    You can initialize the project environment by running:
 
@@ -45,6 +45,45 @@ This project is organized into two main parts: the backend and the frontend.
 
    This will install Node v22.16.0, nestjs/cli and dependencies for both the frontend (React) and backend (NestJS).
 
-  
+3. 🚀 **Running the app**
+
+   For starting the NestJS backend run:
+   
+   ```bash
+   $ cd backend
+   $ npm run start:dev
+   ```
+
+   For starting the React frontend run:
+   
+   ```bash
+   $ cd frontend
+   $ npm start
+   ```
+
+### ✅ Linting and Fromatting
+
+- Eslint is used in the project to enforce code style and should be configured in your [editor](https://eslint.org/docs/user-guide/integrations).
+
+- Prettier is also used and apply automatically by eslint
+
+You can ask eslint to fix issues by running:
+
+```bash
+$ npm run lint
+```
+
+### 🧪 Testing
+
+Use the following command to run unit tests:
+
+```bash
+$ npm run test
+```
+
+Use the following to run unit tests in watch mode while developing:
 
 
+```bash
+$ npm run test:watch
+```
