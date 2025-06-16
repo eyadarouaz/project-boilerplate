@@ -6,11 +6,14 @@ This repository contains the starter code for a Node project.
 
 ### 📦 Getting started
 
-1. 📋**Prerequisites**
+1. 📋  **Prerequisites**
+   
    Ensure the following tools are installed:
    - curl
+   - Git
 
-2. 🛠️**Development Environment**
+3. 🛠️  **Development Environment**
+   
    You can initialize the project environment by running:
 
   ```bash
