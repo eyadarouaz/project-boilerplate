@@ -16,11 +16,11 @@ This repository contains the starter code for a Node project.
    
    You can initialize the project environment by running:
 
-  ```bash
-  $ bash bin/setup.sh
-  ```
+   ```bash
+   $ bash bin/setup.sh
+   ```
 
-  This will install Node v22.16.0, nestjs/cli and dependencies for both the frontend (React) and backend (NestJS).
+   This will install Node v22.16.0, nestjs/cli and dependencies for both the frontend (React) and backend (NestJS).
 
   
 
